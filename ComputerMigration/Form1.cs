@@ -41,6 +41,12 @@ namespace ComputerMigration
                     string techNum = Environment.UserName;
                     DateTime date = DateTime.Now;
 
+                    // Making sure our file doesn't exist, or if it does we'll erase it and start fresh
+                    if (File.Exists("computer.txt"))
+                    {
+                        File.Delete("computer.txt");
+                    }
+
                     FileStream file = new FileStream("computer.txt", FileMode.OpenOrCreate, FileAccess.Write);
 
                     write = new StreamWriter(file);
@@ -124,6 +130,11 @@ namespace ComputerMigration
         }
 
         private void checkBoxMigration_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

@@ -34,11 +34,11 @@ namespace ComputerMigration
 
         private void MainScreen_Load(object sender, EventArgs e)
         {
-            string currentVersion = "1.1.4";
+            string currentVersion = "1.1.5";
             string latestVersion;
             using (var client = new WebClient())
             {
-                client.DownloadFile("http://uraqt.xyz/uselessprograms/migrationversion.txt", "migrationversion.txt");
+                client.DownloadFile("https://raw.githubusercontent.com/wethegreenpeople/MigrationTools/master/migrationversion.txt", "migrationversion.txt");
             }
             latestVersion = File.ReadAllText("migrationversion.txt");
             latestVersion = latestVersion.Trim();
