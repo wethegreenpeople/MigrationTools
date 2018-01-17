@@ -14,9 +14,10 @@ namespace MigrationUpdate
         {
             System.Threading.Thread.Sleep(1000);
             File.Delete("ComputerMigration.exe");
+            Console.Write(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + args[0] + "/ComputerMigration.exe");
             using (var client = new WebClient())
             {
-                client.DownloadFile(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + args[0] + "ComputerMigration.exe", "ComputerMigration.exe");
+                client.DownloadFile(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + args[0] + "/ComputerMigration.exe", "ComputerMigration.exe");
             }
         }
     }
