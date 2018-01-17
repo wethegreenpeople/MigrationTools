@@ -33,6 +33,7 @@
             this.checkBoxMigration = new System.Windows.Forms.CheckBox();
             this.buttonDodat = new System.Windows.Forms.Button();
             this.checkBoxDomain = new System.Windows.Forms.CheckBox();
+            this.checkBoxPrinters = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // checkBoxInfo
@@ -49,7 +50,7 @@
             // checkBoxBookmarks
             // 
             this.checkBoxBookmarks.AutoSize = true;
-            this.checkBoxBookmarks.Location = new System.Drawing.Point(34, 35);
+            this.checkBoxBookmarks.Location = new System.Drawing.Point(34, 58);
             this.checkBoxBookmarks.Name = "checkBoxBookmarks";
             this.checkBoxBookmarks.Size = new System.Drawing.Size(79, 17);
             this.checkBoxBookmarks.TabIndex = 1;
@@ -60,7 +61,7 @@
             // checkBoxMigration
             // 
             this.checkBoxMigration.AutoSize = true;
-            this.checkBoxMigration.Location = new System.Drawing.Point(34, 58);
+            this.checkBoxMigration.Location = new System.Drawing.Point(34, 81);
             this.checkBoxMigration.Name = "checkBoxMigration";
             this.checkBoxMigration.Size = new System.Drawing.Size(69, 17);
             this.checkBoxMigration.TabIndex = 2;
@@ -70,7 +71,7 @@
             // 
             // buttonDodat
             // 
-            this.buttonDodat.Location = new System.Drawing.Point(28, 112);
+            this.buttonDodat.Location = new System.Drawing.Point(55, 131);
             this.buttonDodat.Name = "buttonDodat";
             this.buttonDodat.Size = new System.Drawing.Size(75, 23);
             this.buttonDodat.TabIndex = 3;
@@ -81,7 +82,7 @@
             // checkBoxDomain
             // 
             this.checkBoxDomain.AutoSize = true;
-            this.checkBoxDomain.Location = new System.Drawing.Point(34, 81);
+            this.checkBoxDomain.Location = new System.Drawing.Point(34, 104);
             this.checkBoxDomain.Name = "checkBoxDomain";
             this.checkBoxDomain.Size = new System.Drawing.Size(62, 17);
             this.checkBoxDomain.TabIndex = 4;
@@ -89,11 +90,22 @@
             this.checkBoxDomain.UseVisualStyleBackColor = true;
             this.checkBoxDomain.CheckedChanged += new System.EventHandler(this.checkBoxDomain_CheckedChanged);
             // 
+            // checkBoxPrinters
+            // 
+            this.checkBoxPrinters.AutoSize = true;
+            this.checkBoxPrinters.Location = new System.Drawing.Point(34, 35);
+            this.checkBoxPrinters.Name = "checkBoxPrinters";
+            this.checkBoxPrinters.Size = new System.Drawing.Size(61, 17);
+            this.checkBoxPrinters.TabIndex = 5;
+            this.checkBoxPrinters.Text = "Printers";
+            this.checkBoxPrinters.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(164, 149);
+            this.ClientSize = new System.Drawing.Size(189, 166);
+            this.Controls.Add(this.checkBoxPrinters);
             this.Controls.Add(this.checkBoxDomain);
             this.Controls.Add(this.buttonDodat);
             this.Controls.Add(this.checkBoxMigration);
@@ -115,6 +127,7 @@
         private System.Windows.Forms.CheckBox checkBoxMigration;
         private System.Windows.Forms.Button buttonDodat;
         private System.Windows.Forms.CheckBox checkBoxDomain;
+        private System.Windows.Forms.CheckBox checkBoxPrinters;
     }
 }
 

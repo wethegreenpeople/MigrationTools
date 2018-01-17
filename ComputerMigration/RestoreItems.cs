@@ -63,6 +63,16 @@ namespace ComputerMigration
                 bookmark = new BookmarkRestore();
                 bookmark.Show();
             }
+
+            if (checkBoxPrinters.Checked == true)
+            {
+                var printerPort = new ProcessStartInfo();
+                printerPort.WorkingDirectory = Directory.GetCurrentDirectory() + @"\Scripts";
+                printerPort.FileName = "printerPort.exe";
+                printerPort.Verb = "runas";
+                printerPort.Arguments = "import";
+                Process.Start(printerPort);
+            }
         }
 
         private void checkBoxInfo_CheckedChanged(object sender, EventArgs e)

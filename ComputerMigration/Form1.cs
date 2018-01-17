@@ -91,6 +91,16 @@ namespace ComputerMigration
                 disjoinProcess.FileName = "disjoinDomain.exe";
                 Process.Start(disjoinProcess);
             }
+
+            if (checkBoxPrinters.Checked == true)
+            {
+                var printerPort = new ProcessStartInfo();
+                printerPort.WorkingDirectory = Directory.GetCurrentDirectory() + @"\Scripts";
+                printerPort.FileName = "printerPort.exe";
+                printerPort.Verb = "runas";
+                printerPort.Arguments = "export";
+                Process.Start(printerPort);
+            }
         }
 
         private List<string> GetMacAddress()

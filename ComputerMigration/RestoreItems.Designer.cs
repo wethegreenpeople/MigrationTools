@@ -33,12 +33,13 @@
             this.checkBoxMigration = new System.Windows.Forms.CheckBox();
             this.checkBoxBookmarks = new System.Windows.Forms.CheckBox();
             this.checkBoxInfo = new System.Windows.Forms.CheckBox();
+            this.checkBoxPrinters = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // checkBoxDomain
             // 
             this.checkBoxDomain.AutoSize = true;
-            this.checkBoxDomain.Location = new System.Drawing.Point(51, 78);
+            this.checkBoxDomain.Location = new System.Drawing.Point(38, 104);
             this.checkBoxDomain.Name = "checkBoxDomain";
             this.checkBoxDomain.Size = new System.Drawing.Size(62, 17);
             this.checkBoxDomain.TabIndex = 9;
@@ -47,7 +48,7 @@
             // 
             // buttonDodat
             // 
-            this.buttonDodat.Location = new System.Drawing.Point(45, 109);
+            this.buttonDodat.Location = new System.Drawing.Point(55, 131);
             this.buttonDodat.Name = "buttonDodat";
             this.buttonDodat.Size = new System.Drawing.Size(75, 23);
             this.buttonDodat.TabIndex = 8;
@@ -58,7 +59,7 @@
             // checkBoxMigration
             // 
             this.checkBoxMigration.AutoSize = true;
-            this.checkBoxMigration.Location = new System.Drawing.Point(51, 55);
+            this.checkBoxMigration.Location = new System.Drawing.Point(38, 81);
             this.checkBoxMigration.Name = "checkBoxMigration";
             this.checkBoxMigration.Size = new System.Drawing.Size(69, 17);
             this.checkBoxMigration.TabIndex = 7;
@@ -69,7 +70,7 @@
             // checkBoxBookmarks
             // 
             this.checkBoxBookmarks.AutoSize = true;
-            this.checkBoxBookmarks.Location = new System.Drawing.Point(51, 32);
+            this.checkBoxBookmarks.Location = new System.Drawing.Point(38, 58);
             this.checkBoxBookmarks.Name = "checkBoxBookmarks";
             this.checkBoxBookmarks.Size = new System.Drawing.Size(79, 17);
             this.checkBoxBookmarks.TabIndex = 6;
@@ -79,7 +80,7 @@
             // checkBoxInfo
             // 
             this.checkBoxInfo.AutoSize = true;
-            this.checkBoxInfo.Location = new System.Drawing.Point(51, 9);
+            this.checkBoxInfo.Location = new System.Drawing.Point(38, 12);
             this.checkBoxInfo.Name = "checkBoxInfo";
             this.checkBoxInfo.Size = new System.Drawing.Size(92, 17);
             this.checkBoxInfo.TabIndex = 5;
@@ -87,11 +88,22 @@
             this.checkBoxInfo.UseVisualStyleBackColor = true;
             this.checkBoxInfo.CheckedChanged += new System.EventHandler(this.checkBoxInfo_CheckedChanged);
             // 
+            // checkBoxPrinters
+            // 
+            this.checkBoxPrinters.AutoSize = true;
+            this.checkBoxPrinters.Location = new System.Drawing.Point(38, 35);
+            this.checkBoxPrinters.Name = "checkBoxPrinters";
+            this.checkBoxPrinters.Size = new System.Drawing.Size(61, 17);
+            this.checkBoxPrinters.TabIndex = 10;
+            this.checkBoxPrinters.Text = "Printers";
+            this.checkBoxPrinters.UseVisualStyleBackColor = true;
+            // 
             // RestoreItems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(178, 147);
+            this.ClientSize = new System.Drawing.Size(189, 166);
+            this.Controls.Add(this.checkBoxPrinters);
             this.Controls.Add(this.checkBoxDomain);
             this.Controls.Add(this.buttonDodat);
             this.Controls.Add(this.checkBoxMigration);
@@ -112,5 +124,6 @@
         private System.Windows.Forms.CheckBox checkBoxMigration;
         private System.Windows.Forms.CheckBox checkBoxBookmarks;
         private System.Windows.Forms.CheckBox checkBoxInfo;
+        private System.Windows.Forms.CheckBox checkBoxPrinters;
     }
 }

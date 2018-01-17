@@ -1,0 +1,230 @@
+{
+   "checksum": "879b76eebe007b2ff2859151b704d5b3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13077322800977901",
+            "id": "30",
+            "name": "Bookmarks",
+            "sync_transaction_version": "12",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "12945550688504675",
+            "id": "4",
+            "meta_info": {
+               "last_visited_desktop": "13135881834383271"
+            },
+            "name": "Suggested Sites",
+            "sync_transaction_version": "59",
+            "type": "url",
+            "url": "https://ieonline.microsoft.com/#ieslice"
+         }, {
+            "date_added": "12945472260283074",
+            "id": "5",
+            "name": "Web Slice Gallery",
+            "sync_transaction_version": "57",
+            "type": "url",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=121315"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "12945472264635725",
+                  "id": "8",
+                  "name": "GobiernoUSA.gov",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=129792"
+               }, {
+                  "date_added": "12945472264557721",
+                  "id": "9",
+                  "name": "USA.gov",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=129791"
+               } ],
+               "date_added": "12976664399498568",
+               "date_modified": "0",
+               "id": "7",
+               "name": "Links for United States",
+               "sync_transaction_version": "12",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "12945472260080262",
+                  "id": "11",
+                  "name": "MSN Autos",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=55143"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "12",
+                  "name": "MSN Entertainment",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=68924"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "13",
+                  "name": "MSN Money",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=68923"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "14",
+                  "name": "MSN Sports",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=68921"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "15",
+                  "name": "MSN",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=54729"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "16",
+                  "name": "MSNBC News",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=68922"
+               } ],
+               "date_added": "12976664399499568",
+               "date_modified": "0",
+               "id": "10",
+               "name": "MSN Websites",
+               "sync_transaction_version": "12",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "12945472260064661",
+                  "id": "18",
+                  "name": "IE Add-on site",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=50893"
+               }, {
+                  "date_added": "12945472260064661",
+                  "id": "19",
+                  "name": "IE site on Microsoft.com",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?linkid=44661"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "20",
+                  "name": "Microsoft At Home",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?linkid=55424"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "21",
+                  "name": "Microsoft At Work",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?linkid=68920"
+               }, {
+                  "date_added": "12945472260095863",
+                  "id": "22",
+                  "name": "Microsoft Store",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?linkid=140813"
+               } ],
+               "date_added": "12976664399499568",
+               "date_modified": "0",
+               "id": "17",
+               "name": "Microsoft Websites",
+               "sync_transaction_version": "12",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "12945472260095863",
+                  "id": "24",
+                  "name": "Get Windows Live",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=69172"
+               }, {
+                  "date_added": "12945472260095863",
+                  "id": "25",
+                  "name": "Windows Live Gallery",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=70742"
+               }, {
+                  "date_added": "12945472260080262",
+                  "id": "26",
+                  "name": "Windows Live Mail",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=68925"
+               }, {
+                  "date_added": "12945472260095863",
+                  "id": "27",
+                  "name": "Windows Live Spaces",
+                  "sync_transaction_version": "12",
+                  "type": "url",
+                  "url": "http://go.microsoft.com/fwlink/?LinkId=68927"
+               } ],
+               "date_added": "12976664399499568",
+               "date_modified": "0",
+               "id": "23",
+               "name": "Windows Live",
+               "sync_transaction_version": "12",
+               "type": "folder"
+            } ],
+            "date_added": "12976664399498568",
+            "date_modified": "12976664399498568",
+            "id": "6",
+            "name": "Imported From IE",
+            "sync_transaction_version": "12",
+            "type": "folder"
+         }, {
+            "date_added": "13126293822609177",
+            "id": "33",
+            "name": "doot",
+            "sync_transaction_version": "38",
+            "type": "url",
+            "url": "javascript:"
+         }, {
+            "date_added": "13126319256007998",
+            "id": "38",
+            "name": "dootdoot",
+            "sync_transaction_version": "56",
+            "type": "url",
+            "url": "javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js'); var jQueryNode = document.createElement('script'); var arr = []; jQueryNode.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'; document.getElementsByTagName('head')[0].appendChild(jQueryNode); $('#AJAX_'+$('[name=\"MYASSIGNMENTS\"]').attr('id')+' tbody').children().children(':nth-child(2)').each(function(){ var tmp = $(this).text(); arr.push(tmp); }); var APIUSER = \"e3da4998-2df3-4bdb-9860-1c21db8df893\"; var APIKEY = \"2d957cf8-3ca2-4676-a1b1-9bd567667355\"; var oldTodo = []; var utc = new Date().toJSON().slice(0,10); $.ajax({ url: 'https://habitica.com/api/v3/tasks/user', type: 'GET', dataType: 'json', cache: false, beforeSend: function(xhr){ xhr.setRequestHeader('x-api-user', APIUSER); xhr.setRequestHeader('x-api-key', APIKEY); }, data: {'type':'todos'}, success: function(result){ for (var i = 0; i \u003C result.data.length; i++){ oldTodo.push(result.data[i].text); console.log(oldTodo[i]); } tmp = []; for(var i = 0; i \u003C arr.length;i++){ tmp.push(arr[i].trim()); } for(var i = 0; i \u003C tmp.length; i++){ console.log(oldTodo[0]); console.log('Index ' + i + '[tmp: \"'+tmp[i]+'\"] : ' + window.oldTodo[0]); if ( $.inArray(tmp[i],oldTodo) == -1 ) { var myData = { 'notes': '', 'value': 0, 'challenge': {}, 'tags': {}, 'priority': 1, 'dateCreated': utc, 'type': 'todo', 'attribute': 'int', 'id': '8ef03c84-3268-48db-9f9a-8e495ba9cda9', 'text': arr[i].trim() }; $.ajax({ url: 'https://habitica.com/api/v3/tasks/user', type: 'POST', dataType: 'json', cache: false, beforeSend: function(xhr){ xhr.setRequestHeader('x-api-user', APIUSER); xhr.setRequestHeader('x-api-key', APIKEY); }, data: myData, success: function(result){console.log(result.data)}, error: ('angry doot') }); } } alert(\"doot\"); }, error: ('angry doot'), });"
+         } ],
+         "date_added": "12976664336131534",
+         "date_modified": "13126319256007998",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "12976664336131534",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "59",
+      "synced": {
+         "children": [  ],
+         "date_added": "12976664336131534",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
