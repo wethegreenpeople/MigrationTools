@@ -16,7 +16,7 @@ namespace MigrationUpdate
             File.Delete("ComputerMigration.exe");
             using (var client = new WebClient())
             {
-                client.DownloadFile(@"http://uraqt.xyz/uselessprograms/ComputerMigration.exe", "ComputerMigration.exe");
+                client.DownloadFile(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + args[0] + "ComputerMigration.exe", "ComputerMigration.exe");
             }
         }
     }

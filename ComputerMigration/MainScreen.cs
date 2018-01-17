@@ -34,7 +34,7 @@ namespace ComputerMigration
 
         private void MainScreen_Load(object sender, EventArgs e)
         {
-            string currentVersion = "1.1.5";
+            string currentVersion = Convert.ToString(System.Reflection.Assembly.GetEntryAssembly().GetName().Version);
             string latestVersion;
             using (var client = new WebClient())
             {
@@ -42,6 +42,7 @@ namespace ComputerMigration
             }
             latestVersion = File.ReadAllText("migrationversion.txt");
             latestVersion = latestVersion.Trim();
+            //MessageBox.Show(currentVersion + " " + latestVersion);
             if (currentVersion != latestVersion)
             {
                 DialogResult update = MessageBox.Show("Update available. Close and update now?", "Update?", MessageBoxButtons.OKCancel);
@@ -50,6 +51,7 @@ namespace ComputerMigration
                     ProcessStartInfo info = new ProcessStartInfo(@"MigrationUpdate.exe");
                     info.UseShellExecute = true;
                     info.Verb = "runas";
+                    info.Arguments = currentVersion;
                     Process.Start(info);
                     Application.Exit();
                 }

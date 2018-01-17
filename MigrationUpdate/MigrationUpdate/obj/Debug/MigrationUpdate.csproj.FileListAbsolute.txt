@@ -4,3 +4,9 @@ C:\Users\Administrator\Desktop\ComputerMigration\MigrationUpdate\MigrationUpdate
 C:\Users\Administrator\Desktop\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.exe
 C:\Users\Administrator\Desktop\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.pdb
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\MigrationUpdate.exe.config
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.exe
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.pdb
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\MigrationUpdate.exe
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\MigrationUpdate.pdb
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.csprojResolveAssemblyReference.cache
