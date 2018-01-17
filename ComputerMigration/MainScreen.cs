@@ -51,7 +51,7 @@ namespace ComputerMigration
                     ProcessStartInfo info = new ProcessStartInfo(@"MigrationUpdate.exe");
                     info.UseShellExecute = true;
                     info.Verb = "runas";
-                    info.Arguments = currentVersion;
+                    info.Arguments = latestVersion;
                     Process.Start(info);
                     Application.Exit();
                 }
