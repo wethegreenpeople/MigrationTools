@@ -10,3 +10,5 @@ C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpda
 C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\MigrationUpdate.exe
 C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\MigrationUpdate.pdb
 C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\obj\Debug\MigrationUpdate.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\DotNetZip.dll
+C:\Users\Administrator\Documents\ComputerMigration\MigrationUpdate\MigrationUpdate\bin\Debug\DotNetZip.xml
