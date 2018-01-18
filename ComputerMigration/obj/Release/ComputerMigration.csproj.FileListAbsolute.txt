@@ -28,3 +28,5 @@ C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.RestoreItems.resources
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.TechInfo.resources
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\DotNetZip.dll
+C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\DotNetZip.xml

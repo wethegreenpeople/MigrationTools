@@ -48,6 +48,11 @@ namespace ComputerMigration
                 DialogResult update = MessageBox.Show("Update available. Close and update now?", "Update?", MessageBoxButtons.OKCancel);
                 if (update == DialogResult.OK)
                 {
+                    File.Delete("MigrationUpdate.exe");
+                    using (var client = new WebClient())
+                    {
+                        client.DownloadFile(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + latestVersion + "/MigrationUpdate.exe", "MigrationUpdate.exe");
+                    }
                     ProcessStartInfo info = new ProcessStartInfo(@"MigrationUpdate.exe");
                     info.UseShellExecute = true;
                     info.Verb = "runas";
