@@ -7,9 +7,16 @@ Local $psImportPrinter = ".\PrintBrm.exe -r -f " & $parentDir & "\printers.print
 
 If $CmdLine[0] > 0 Then
    If $CmdLine[1] == "export" Then
-	  RunWait("powershell.exe -NoExit" & $psSpoolDir & $psExportPrinter)
+	  If (FileExists($parentDir & "\printers.printerExport")) Then
+		 FileDelete($parentDir & "\printers.printerExport")
+	  EndIf
+	  If (FileExists("C:\printers.printerExport")) Then
+		 FileDelete("C:\printers.printerExport")
+	  EndIf
+	  RunWait("powershell.exe" & $psSpoolDir & $psExportPrinter)
+	  FileMove("C:\printers.printerExport", $parentDir & "\printers.printerExport")
    ElseIf $CmdLine[1] == "import" Then
-	  RunWait("powershell.exe -NoExit" & $psSpoolDir & $psImportPrinter)
+	  RunWait("powershell.exe" & $psSpoolDir & $psImportPrinter)
    EndIf
 Else
    MsgBox(0, "Error", "Cannot be run directly")
