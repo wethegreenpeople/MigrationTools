@@ -1,4 +1,4 @@
-<img src="docs/images/backupwindow.png" width="250" /> <img src="docs/images/mainscreen.png" width="250" /> 
+<img src="docs/images/backupwindow.PNG"/> <img src="docs/images/mainscreen.PNG" width="250" /> 
 
 # MigrationTools
 Simple tools I use at work for computer migrations
