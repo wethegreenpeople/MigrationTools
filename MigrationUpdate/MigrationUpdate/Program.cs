@@ -18,6 +18,8 @@ namespace MigrationUpdate
             // Downloading the update for our program
             using (var client = new WebClient())
             {
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 client.DownloadFile(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + args[0] + "/Migration.zip", "Migration.zip");
             }
             string update = "Migration.zip";

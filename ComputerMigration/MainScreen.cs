@@ -51,6 +51,8 @@ namespace ComputerMigration
                     File.Delete("MigrationUpdate.exe");
                     using (var client = new WebClient())
                     {
+                        ServicePointManager.Expect100Continue = true;
+                        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                         client.DownloadFile(@"https://github.com/wethegreenpeople/MigrationTools/releases/download/" + latestVersion + "/MigrationUpdate.exe", "MigrationUpdate.exe");
                     }
                     ProcessStartInfo info = new ProcessStartInfo(@"MigrationUpdate.exe");

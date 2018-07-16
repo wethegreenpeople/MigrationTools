@@ -19,7 +19,6 @@ C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\ComputerMigration.exe
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\ComputerMigration.pdb
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\System.Management.Automation.dll
-C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.Bookmark.resources
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.BookmarkRestore.resources
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.Form1.resources
@@ -30,3 +29,4 @@ C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\DotNetZip.dll
 C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\bin\Release\DotNetZip.xml
+C:\Users\Administrator\Documents\ComputerMigration\ComputerMigration\obj\Release\ComputerMigration.csprojResolveAssemblyReference.cache
