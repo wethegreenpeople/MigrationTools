@@ -53,3 +53,5 @@
 #*.vcxitems merge=binary
 
 mig_tools/* linguist-vendored
+MigrationUpdate/MigrationUpdate/bin/Debug/Migration[[:space:]]Update/mig_tools/* linguist-vendored
+MigrationUpdate/MigrationUpdate/bin/Release/Migration[[:space:]]Update/mig_tools/* linguist-vendored
