@@ -1,3 +1,5 @@
+<img src="docs/images/backupwindow.png" width="250" /> <img src="docs/images/mainscreen.png" width="250" /> 
+
 # MigrationTools
 Simple tools I use at work for computer migrations
 
@@ -7,3 +9,4 @@ Simple tools I use at work for computer migrations
 * Bookmark Backup tool
 * Computer info backup/restore (Computer name, description, IP, MAC)
 * Domain removal/addition
+* Basic printer backup/restore
